@@ -31,6 +31,18 @@ section {
  justify-content: space-around;
 
 }
+
+.contact {
+  transform: translateY(-33px);
+}
+.contact a:nth-child(2){
+  color: deeppink;
+}
+
+.contact i {
+  font-size: 4rem;
+  color: yellow;
+}
 .card{
   width: 100%;
    padding: 2rem 0;
@@ -141,7 +153,8 @@ margin: 1rem auto;
 
 }
 .modal-window button {
-   transform: rotate(
+
+  transform: rotate(
 45deg);
   position: fixed;
   /* left: 48px; */
@@ -159,6 +172,8 @@ margin: 1rem auto;
   font: normal normal  40px arial;
   color: #ffffff;
   text-decoration: none;
+  /* float: none; */
+  /* right: 9px; */
 }
 
 .modal-window h3 {
