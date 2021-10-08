@@ -1,7 +1,6 @@
  @font-face {
-  font-family: "Castellar";
-  src: url("./font/CASTELAR.ttf") format("woff2")
-        ;
+  font-family: "Kastell";
+  src: url("../font/CASTELAR.ttf") ;
  } 
 * {
   padding: 0;
