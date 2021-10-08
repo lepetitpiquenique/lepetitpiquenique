@@ -140,21 +140,27 @@ margin: 1rem auto;
   text-align: center;
 
 }
-.modal-window button{
-
-  height: 30px;
+.modal-window button {
+  background: red;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border: none;
   border-radius: 50%;
+  /* font-family: Arial; */
+  color: #ffffff;
+  font-size: 30px;
+  /* width: 30px; */
+  /* height: 30px; */
+  padding: 3px 13px 6px 15px;
+  text-decoration: none;
+  transform: rotate(
+45deg);
   position: fixed;
-  width: 30px;
-  right: 25px;
-  background: red;
-  font-family: cursive;
-  padding: 0 0 5px 0;
-  border: 2px solid;
-  font-size: 1rem;
+  /* left: 48px; */
+  right: 15px;
+  /* float: none; */
+  /* right: 9px; */
 }
-
 
 .modal-window h3 {
   margin: 2rem;
