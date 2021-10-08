@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Frgb(11, 253, 181)oka+One&display=swap');
-
+ @font-face {
+  font-family: "Castellar";
+  src: url("./font/CASTELAR.ttf") format("woff2")
+        ;
+ } 
 * {
   padding: 0;
   margin: 0;
