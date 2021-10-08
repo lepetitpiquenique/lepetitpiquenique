@@ -141,26 +141,24 @@ margin: 1rem auto;
 
 }
 .modal-window button {
- font-family : 'Arial';
-  background: red;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border: none;
-  border-radius: 50%;
-  /* font-family: Arial; */
-  color: #ffffff;
-  font-size: 30px;
-  /* width: 30px; */
-  /* height: 30px; */
-  padding: 3px 13px 6px 15px;
-  text-decoration: none;
-  transform: rotate(
+   transform: rotate(
 45deg);
   position: fixed;
   /* left: 48px; */
   right: 15px;
-  /* float: none; */
-  /* right: 9px; */
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 3px 14px;
+  border: 0px solid #a12727;
+  border-radius: 100px;
+  background: #ff0000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000));
+  background: -moz-linear-gradient(top, #ff0000, #ff0000);
+  background: linear-gradient(to bottom, #ff0000, #ff0000);
+  font: normal normal  40px arial;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .modal-window h3 {
