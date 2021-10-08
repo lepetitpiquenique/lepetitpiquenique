@@ -141,6 +141,7 @@ margin: 1rem auto;
 
 }
 .modal-window button {
+ font-family : 'Arial';
   background: red;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
